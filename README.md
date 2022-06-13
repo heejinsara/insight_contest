@@ -3,7 +3,7 @@
 ## 개요
 
 1. 신용카드 사용자 데이터로 사용자의 대금 연체 정도를 예측
-2. 금융업계에게 제안할 수 있는 ****의미있는 모델링 결과와 인사이트 도출
+2. 금융업계에게 제안할 수 있는 의미있는 모델링 결과와 인사이트 도출
 
 ## 개발 환경
 
@@ -61,4 +61,6 @@ XGBoost의 hyperparamer tuning에 wandb 사용
 
 ⇒ K-fold validation을 사용하지 않을 때, 각각의 eteration마다 train dataset의 비율을 조정하여 일부로만 학습시키는 `subsample` hyperparameter가 가장 큰 요인으로 작용했다.
 
-⇒ Tabular 형식의 데이터에서 Tree model은 트리를 깊고 넓게 가져가고 규제를 적용하는 것보다, 간단한 트리모델을 사용하고 규제를 약하게 적용하는
+⇒ Tabular 형식의 데이터에서 Tree model은 트리를 깊고 넓게 가져가고 규제를 적용하는 것보다, 간단한 트리모델을 사용하고 규제를 약하게 적용하는 것이 효과가 좋았다.
+
+⇒ hyperparameter tuning 이후 accuracy 0.5%p 상승
