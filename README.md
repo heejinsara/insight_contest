@@ -55,7 +55,7 @@ Accuracy Score
 XGBoost의 hyperparameter tuning에 wandb 사용
 
 1. Tree 모형에 필요한 hyperparameter를 폭넓게 테스트
-2. 성능에 유의미한 변화를 주는 hyperparamer를 선택하여 유의미한 값 주변의 값을 좁게 테스트
+2. 성능에 유의미한 변화를 주는 hyperparameter를 선택하여 유의미한 값 주변의 값을 좁게 테스트
 → 학습의 안정성 확보
 3. 복잡한 트리모델에 규제를 적용한 모델과 단순한 트리모델에 규제를 적용하지 않은 모델 비교
 
