@@ -37,14 +37,12 @@ Accuracy Score
 
 0.7273으로 🥇1st prize🥇
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8db7ec33-9541-45ea-93d9-c3f6af1ec41e/Untitled.png)
-
 ## Details
 
 전처리를 통해 다양한 Derived Variable 발굴
 
-- 경제력 = 소득/(살아온 일수 + 근무일수)
-    - 신용카드 사용자가 시간당 벌 수 있는 소득을 표현
+- 경제력 = 소득/가족수
+    - 부양 가족 대비 실질적인 경제력을 표현
 - 경제활동 시작 나이 = 나이-근무일수
     - 신용카드 사용자가 경제활동을 시작한 나이를 표현
 - 부양해야할 가족수 = 가족수 + 자녀수
